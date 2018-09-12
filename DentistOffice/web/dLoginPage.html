@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+/*********************************************************************
+/* Walter Scott  java 3   Dentist office project
+/********************************************************************* 
+
+    Document   : login page
+    Created on : April 7, 2018, 3:37:26 PM
+    Author     : walter scott
+-->
+
+
+<html>
+    <head>
+         <style>
+             .g1{display:grid; 
+                   grid-template-columns:600px;
+                   grid-gap: 4px;
+                    
+                  }     
+                .g1  div:nth-child(n) {background: #aabbcc;
+                                 border: 1px solid #00ff00 ; 
+                                 text-align: center;
+                        }
+             .g2{display:grid; 
+                   grid-template-columns:600px;
+                   grid-gap: 4px;
+                    
+                  }     
+                .g2  div:nth-child(n) {background: #66bbcc;
+                                 border: 1px solid #ff0000 ; 
+                                 text-align: center;
+                        }           
+            h1 { display:grid; 
+                   grid-template-columns:600px;
+                   background: #aaaaaa;
+                  
+                   grid-gap: 2px;
+                   border: 1px solid #00ff00;
+                   text-align: center;   
+            }
+            
+            
+        </style>
+        
+        
+        
+        
+        <title>chatt Dentist login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        
+    </head>
+    <body>
+  
+       
+            
+        <form  method = "post"   >
+           
+            <div class="g2">
+            <div>             
+             <h1 >Chatt Dentist</h1> 
+            
+           
+             <h1 >Login Page</h1> 
+            </div>
+            </div>
+            <br>
+              <div class="g1">
+                 <div>
+            Type your ID:<input  type="text"   name="userName1"   />
+                     
+		<span>.         .          .</span>
+                                       
+	    Password: <input type="password"   name="passWord1"  />
+                 </div>
+                                    
+					<br/>
+                                       
+    <!--                                         <input type="submit" value="Login" >
+	-->			
+        <div>
+        <button formaction="LoginServlet"   />LOGIN</button>
+		
+        <br>
+              
+		<input type="reset" value="Reset" /> 		  
+        </div>
+        
+            </div>  
+            
+         </form>
+        
+         
+
+      
+    </body>
+</html>
